@@ -1,0 +1,29 @@
+﻿<Window x:Class="DZ5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DZ5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Margin="62,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" IsReadOnly="True" Height="125" TextChanged="tb1_TextChanged"/>
+
+        <Grid Width="500" Height="300" Margin="199,45,101,89" Background="#7F888888">
+            <Label x:Name="lb1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="9" Width="14" Background="Red" Margin="486,291,0,0"/>
+        </Grid>
+        <Button x:Name="btn2" Content="Pixel.toString()" HorizontalAlignment="Left" Margin="62,197,0,0" VerticalAlignment="Top" Width="102" Click="btn2_Click"/>
+        <Button x:Name="btn1" Content="Apply" HorizontalAlignment="Left" Margin="71,165,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBox x:Name="tbX" HorizontalAlignment="Left" Margin="71,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93"/>
+        <TextBox x:Name="tbY" HorizontalAlignment="Left" Margin="71,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93"/>
+        <TextBox x:Name="tbR" HorizontalAlignment="Left" Margin="71,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93"/>
+        <TextBox x:Name="tbG" HorizontalAlignment="Left" Margin="71,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93"/>
+        <TextBox x:Name="tbB" HorizontalAlignment="Left" Margin="71,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93"/>
+        <Label Content="X pos:" HorizontalAlignment="Left" Margin="12,43,0,0" VerticalAlignment="Top" Height="25"/>
+        <Label Content="Y pos:" HorizontalAlignment="Left" Margin="12,66,0,0" VerticalAlignment="Top" Height="25"/>
+        <Label Content="Red:" HorizontalAlignment="Left" Margin="12,89,0,0" VerticalAlignment="Top" Height="25"/>
+        <Label Content="Green:" HorizontalAlignment="Left" Margin="12,112,0,0" VerticalAlignment="Top" Height="25"/>
+        <Label Content="Blue:" HorizontalAlignment="Left" Margin="12,135,0,0" VerticalAlignment="Top" Height="25"/>
+
+    </Grid>
+</Window>
